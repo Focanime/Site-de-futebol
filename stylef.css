@@ -1,0 +1,19 @@
+body {
+    background-image: url(Hexagono.png);
+	background-attachment: fixed;
+	background-size:100%;
+
+    padding:0px;
+	margin:0px;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+ h1{
+	 
+	color: white;
+ }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<meta charset = "UTF-8">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylef.css" />
+</head>
+<title>Form
+</title>
+<body background-image= "Hexagono.png">
+
+
+<center><div align="center" style="background-image:url(fundo_azul_escuro.jpg); width:900px; height:700px">
+
+
+
+
+	
+	<script>
+var nome, time;
+
+window.alert("Welcome to the Brazilian teams website!");
+nome = window.prompt("What's your name?")
+time = window.prompt("Which Brazilian team do you support?")
+
+document.write('<h1 class = "texto">' + "Hello " + nome + " fan of " + time + '<h1>');
+
+</script>
+    
+         <center><h5>Register to be able to access the site</h5></center>
+
+  
+        <center><form>
+<h5>
+          <div class="campo">
+                    <label for="nome"><strong>Name</strong></label>
+                    <input type="text" name="nome" id="nome" placeholder="Type your name" required>
+                </div>
+
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Surname</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Enter your last name" required>
+                </div>
+
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" placeholder="Type your e-mail" required>
+            </div>
+			
+			
+			    <div class="campo">
+                <label for="Senha"><strong>Password</strong></label>
+                <input type="password" input type="text" name="name" size="15" maxlength="8" placeholder="Maximum 8 digits" required>
+            </div>
+			
+
+			
+			   <div class="campo">
+                <label for="Data de nascimento"><strong>Date of birth</strong></label>
+                <input id="date" name="Data de nascimento" type="date" required>
+            </div>
+
+
+    
+
+            <div class="campo">
+                <label for="senioridade"><strong>Gender</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Select</option>
+                  <option>Female</option>
+                  <option>Male</option>
+                  <option>Other</option>
+                </select>
+            </div>
+</h5>
+   
+        
+            <center><a href="Times brasileiros.html"><button class="botao" type="button" >To send</button></a></center>   
+</center>
+</body>
+</html>

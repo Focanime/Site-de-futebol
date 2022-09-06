@@ -1,0 +1,64 @@
+body {
+    background-image: url(Hexagono.png);
+	background-attachment: fixed;
+	background-size:100%;
+
+    padding:0px;
+	margin:0px;
+}
+ 
+ a{
+ font-family:calibri;
+ text-decoration:none;
+ }
+ a:link {
+ color: rgb(44, 7, 7);
+ font-size: 20px;
+ font-style: italic;
+ }
+ a:visited {
+ color: black;
+ }
+ a:hover {
+ border-bottom: 10px black;
+ color:rgb(114, 133, 137);
+ text-transform:uppercase;
+ }
+ a:active {
+ color: black;
+ }
+ ul {
+background-image: url(fundo_amarelo.jpg);
+ background-color: lightslategrey;
+ background-repeat: repeat-y;
+ background-position: top;
+ }
+ li{
+ display: inline-block;
+ padding-right: 80px;
+ }
+ 
+div{
+display: block;
+margin: 8px;
+background-color:white;
+width:auto;
+height:auto;
+}
+
+
+
+
+
+
+h1{
+text-decoration: underline;
+}
+
+
+
+.texto{
+color: white;
+
+
+

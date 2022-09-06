@@ -1,0 +1,39 @@
+body {
+    background-image: url(wallpaper5.png);
+	background-attachment: scroll;
+	background-size:100%;
+	background-repeat: repeat-y;
+    padding:0px;
+	margin:0px;
+}
+ 
+ a{
+ font-family:calibri;
+ text-decoration:none;
+ }
+ a:link {
+ color: rgb(44, 7, 7);
+ font-size: 20px;
+ font-style: italic;
+ }
+ a:visited {
+ color: black;
+ }
+ a:hover {
+ border-bottom: 10px black;
+ color:rgb(0, 0, 0);
+ text-transform:uppercase;
+ }
+ a:active {
+ color: black;
+ }
+ ul {
+ background-image: url(fundo_amarelo.jpg);
+ background-repeat: repeat-y;
+ background-position: top;
+ }
+ li{
+ display: inline-block;
+ padding-right: 80px;
+ }
+
